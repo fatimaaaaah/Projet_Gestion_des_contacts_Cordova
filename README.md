@@ -1,7 +1,7 @@
 # Projet Gestion des Contacts - Cordova
 
-**ContacTel** est une application web mobile pour gérer les contacts.  
-Elle permet d’ajouter, modifier, supprimer et consulter les informations des contacts, avec stockage local via **localStorage**. Le projet est développé avec **HTML, CSS, JavaScript, jQuery Mobile**, et peut être intégré dans une application **Cordova** pour mobile.
+**ContacTel** est une application mobile pour gérer les contacts.  
+Elle permet d’ajouter, modifier, supprimer et consulter les informations des contacts, avec stockage local via **localStorage**. Le projet est développé avec **Cordova** .
 
 ---
 
@@ -37,7 +37,7 @@ Projet_Gestion_des_contacts_Cordova/
 │  ├─ models/
 │  │  └─ contactModel.js      # Gestion des données (CRUD) via localStorage
 │  ├─ controllers/
-│  │  └─ contactController.js # Logique pour ajouter, éditer, supprimer, préparer édition
+│  │  └─ contactController.js # Logique pour ajouter, éditer, supprimer
 │  ├─ views/
 │  │  ├─ homeView.js          # Vue de la liste des contacts
 │  │  └─ profileView.js       # Vue du profil d’un contact
@@ -52,19 +52,6 @@ Projet_Gestion_des_contacts_Cordova/
 └─ README.md           # Documentation du projet
 
 ````
-
----
-
-## 🛠 Technologies utilisées
-
-- **HTML5 / CSS3**
-- **JavaScript (ES6)**
-- **jQuery / jQuery Mobile** pour la navigation mobile
-- **SweetAlert2** pour les popups de confirmation et notifications
-- **localStorage** pour le stockage persistant côté client
-- **Cordova** (optionnel) pour la transformation en application mobile
-
----
 
 ## ⚙️ Installation et exécution
 
@@ -85,4 +72,4 @@ cd Projet_Gestion_des_contacts_Cordova
 
 ## 🔗 Auteur
 
-**Fatima Nguénar DIOUF**
+**Fatima Nguénar DIOUF M2GLSI**
