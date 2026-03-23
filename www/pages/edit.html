@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier Contact</title>
+
+    <link rel="stylesheet" href="../lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="../js/models/contactModel.js"></script>
+    <script src="../js/controllers/contactController.js"></script>
+    <script src="../js/views/homeView.js"></script>
+    <script src="../js/views/profileView.js"></script>
+    <script src="../js/app.js"></script>
+</head>
+<body>
+<div data-role="page" id="editPage">
+    <div data-role="header">
+        <a href="../index.html" data-icon="home" data-iconpos="notext" data-ajax="false">Accueil</a>
+        <h1>Modifier Contact</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <label>Nom complet</label>
+        <input type="text" id="editFullName" placeholder="Nom complet">
+        
+        <label>Image URL</label>
+        <input type="text" id="editAvatar" placeholder="img/avatar1.jpg">
+        
+        <h3>Téléphones</h3>
+        <label>Mobile</label>
+        <input type="text" id="editMobile" placeholder="Mobile">
+        
+        <label>Professionnel</label>
+        <input type="text" id="editWorkPhone" placeholder="Professionnel">
+        
+        <label>Fixe</label>
+        <input type="text" id="editHomePhone" placeholder="Fixe">
+        
+        <h3>Emails</h3>
+        <label>Email personnel</label>
+        <input type="text" id="editPersonalEmail" placeholder="Email personnel">
+        
+        <label>Email professionnel</label>
+        <input type="text" id="editWorkEmail" placeholder="Email professionnel">
+        
+        <label>Organisation</label>
+        <input type="text" id="editOrganization" placeholder="Organisation">
+
+        <button id="updateContactBtn" data-role="button" data-icon="check">Mettre à jour</button>
+    </div>
+    <div data-role="footer" data-position="fixed"><h4>Copyright © 2026 Fatima Nguenar Diouf M2GLSI</h4></div>
+</div>
+</body>
+</html>

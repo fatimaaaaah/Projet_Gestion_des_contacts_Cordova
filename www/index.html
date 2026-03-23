@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ContacTel - Accueil</title>
+
+<link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/index.css">
+
+<script src="lib/jquery.min.js"></script>
+<script src="lib/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="js/models/contactModel.js"></script>
+<script src="js/controllers/contactController.js"></script>
+<script src="js/views/homeView.js"></script>
+<script src="js/views/profileView.js"></script>
+<script src="js/app.js"></script>
+</head>
+<body>
+<div data-role="page" id="homePage">
+    <div data-role="header"><h1>ContacTel</h1></div>
+    <div data-role="main" class="ui-content">
+    <a href="pages/add.html" data-role="button" data-icon="plus" data-ajax="false">Ajouter Contact</a>
+    <ul id="contactList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher un contact..."></ul>
+</div>
+    <div data-role="footer" data-position="fixed"><h4>Copyright © 2026 Fatima Nguenar Diouf M2GLSI</h4></div>
+</div>
+</body>
+</html>

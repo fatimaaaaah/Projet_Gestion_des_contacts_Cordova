@@ -1,0 +1,77 @@
+/* ====== Style général ====== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+/* ====== Header ====== */
+
+.ui-header{
+    background:#1976d2 !important;
+    border:none !important;
+    color:white !important;
+}
+
+.ui-header h1{
+    color:white !important;
+}
+
+/* ====== Bouton Ajouter ====== */
+
+.add-btn{
+    background:#4CAF50 !important;
+    border:none !important;
+}
+
+/* ====== Liste contacts ====== */
+
+#contactList li img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+/* ====== Avatar profil ====== */
+
+.profile-avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin:auto;
+    display:block;
+}
+
+/* ====== Carte contact ====== */
+
+.contact-card{
+    text-align:center;
+    padding:10px;
+}
+
+/* ====== Inputs formulaire ====== */
+
+.ui-content input{
+    margin-bottom:10px;
+}
+
+/* ====== Bouton principal ====== */
+
+button{
+    background:#1976d2;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+}
+
+/* ====== Responsive mobile ====== */
+
+@media (max-width:600px){
+
+    #contactList li img{
+        width:50px;
+        height:50px;
+    }
+
+}
