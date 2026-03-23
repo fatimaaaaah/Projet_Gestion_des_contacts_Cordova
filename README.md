@@ -86,11 +86,3 @@ cd Projet_Gestion_des_contacts_Cordova
 ## 🔗 Auteur
 
 **Fatima Nguénar DIOUF**
-```
-
----
-
-Si tu veux, je peux aussi te créer une **version plus courte et “GitHub friendly”** avec badges et instructions rapides pour que ton repo fasse super pro.  
-
-Veux‑tu que je fasse cette version aussi ?
-```
